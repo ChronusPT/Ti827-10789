@@ -32,11 +32,28 @@ public class IntroJava {
     }
 
     private static void converteComprimento() {
+        float metros;
+        System.out.println("Insira o valor em metros");
+        metros = ler.nextFloat();
+        System.out.println(metros + " (m) equivale a:\n"+
+                +(metros*10)+" (dm)\n"+
+                +(metros*100)+" (cm)\n"+
+                +(metros*1000)+" (nm)\n"+
+                +(metros/1000)+" (km)");
         
     }
         
 
     private static void convertePesos() {
+        float peso;
+        System.out.println("Insira o valor em quilos");
+        peso = ler.nextFloat();
+        System.out.println(peso+ " (Kg) equivale a:\n"+
+                +(peso*10)+" (dg)\n"+
+                +(peso*100)+" (cg)\n"+
+                +(peso*1000)+" (g)\n"+
+                +(peso/1000)+" (Ton)");
+                        
   
     }
 
